@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1E1E1E;
+}
+
+.conteiner{
+    width: 1220px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main-text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+.main-pr{
+    width: 484px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    margin-bottom: 71px;
+}
+
+.our-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card__te{
+    margin-left: 24px;
+}
+
+.card__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    
+    margin-top: 52px;
+    margin-bottom: 21px;
+    margin-left: 24px;
+
+    color: #272727;
+}
+
+.card__dollor{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 55px;
+
+    margin-bottom: 24px;
+    margin-left: 24px;
+    
+    color: #000000;
+}
+
+.card__pr{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-bottom: 16px;
+    margin-left: 52px;
+    
+    
+    color: #272727;
+}
+
+.g{
+    margin-bottom: 100px;
+}
+
+.cards__button{
+    margin-top: 93px;
+    margin-left: 68px;
+
+    border: 1.2px solid #272727;
+    border-radius: 50px;
+
+    padding: 15px 45px;
+
+    text-decoration: none;
+
+    transition: all .7s ease
+}
+
+.cards__button:hover{
+    background: #FC3867;
+
+    border: none transparent;
+}
+
+.cards__button:active{
+    color: #FFFFFF;
+    transition: all .0s ease;
+}
+
+.card__text{
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 300px;
+
+    padding-top: 53px;
+    padding-bottom: 68px;
+}
+
+span{
+    font-size: 15px;
+}
+
+.all__card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card__button2{
+    background-color: #FC3867;
+}
+
+.card__button2:hover{
+    background: #FFFFFF;
+
+    border: 1px solid #FC3867;
+}
+
+.card__button2:active{
+    color: #FC3867;
+}
+
